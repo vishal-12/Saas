@@ -1,3 +1,10 @@
+name: default
+
+on:
+  push:
+    branches:
+    - '*'
+    
 run_test:
   image: python:3.9-slim-buster
   before_script:
